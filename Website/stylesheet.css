@@ -1,4 +1,35 @@
-.links {
-    color: darkolivegreen;
+
+.head {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.navigationmenu {
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    background-color: #0352fc;
+    width: 200px;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px;
+}
+
+.navigationmenu a {
+    color: white;
+}
+
+.navigationmenu:hover {
+    color: black;
     font-weight: bold;
 }
+
+.navigationmenu a:visited {
+    color: black;
+    font-weight: bold;
+    font-size: xx-small;
+}
+
+
+
