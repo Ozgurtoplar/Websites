@@ -1,35 +1,102 @@
-
+/* hoofd (titel bovenaan */
 .head {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    font-size: 60px;
 }
 
+
+
+/* menu */
 .navigationmenu {
-    color: white;
+    color: black;
     position: fixed;
     left: 0;
-    top: 50px;
+    top: 0;
     background-color: #0352fc;
-    width: 200px;
+    width: 75px;
     height: 100%;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 20px;
+    margin: 0px;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 200px;
+    transition: 0.6s ease;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
-.navigationmenu a {
-    color: white;
+.navigationmenu ul {
+    color: black;
+    position: relative;
+    height: 97vh;
+    list-style: none;
+    margin: 5px 0;
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+.navigationmenu ul li {
+    color: black;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.navigationmenu ul li a {
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+    gap: 35px;
+    font-size: x-large;
+}
+
+
+
+/* hovers */
+.navigationmenu ul li:hover {
+    border-radius: 15px 0 0 15px;
+    background: white;
+    transition: 0.3s ease;
 }
 
 .navigationmenu:hover {
-    color: black;
     font-weight: bold;
-}
-
-.navigationmenu a:visited {
-    color: black;
-    font-weight: bold;
-    font-size: xx-small;
+    width: 210px;
+    transition: 0.3s ease;
 }
 
 
 
+/* text */
+.testlorem {
+    margin-left: 65px;
+    margin-right: 20px;
+    font-size: xx-large;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.divindex, h1, h2, h3{
+    margin-right: 20px;
+    font-size: xx-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 60px;
+}
+
+/* foto's */
+.profielfotoindex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projectfotos img{
+    float: right;
+    display: block;
+    clear: right;
+    margin-right: 100px;
+}
