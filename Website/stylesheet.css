@@ -1,18 +1,21 @@
-/* hoofd (titel bovenaan */
+/* #region hoofd */
 .head {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 60px;
+    margin-left: 15px;
 }
 
-.divindex {
-    margin: 0;
-    padding: 0;
-    border: 0;
+.screenedge {
+    margin-right: 20px;
+    font-size: xx-large;
+    margin-left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+/* #endregion */
 
 
-/* menu */
+/* #region menu */
 .navigationmenu {
     color: black;
     position: fixed;
@@ -57,10 +60,10 @@
     gap: 35px;
     font-size: x-large;
 }
+/* #endregion */
 
 
-
-/* hovers */
+/* #region hovers */
 .navigationmenu ul li:hover {
     border-radius: 15px 0 0 15px;
     background: white;
@@ -72,25 +75,29 @@
     width: 210px;
     transition: 0.3s ease;
 }
+/* #endregion */
 
 
-
-/* text */
+/* #region text */
 .testlorem {
     margin-left: 65px;
     margin-right: 20px;
     font-size: xx-large;
     font-family: 'Roboto Condensed', sans-serif;
 }
+/* #endregion */
 
-.divindex, h1, h2, h3{
-    margin-right: 20px;
-    font-size: xx-large;
+
+/* #region headers */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 50px;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 60px;
+    margin: 0 0 0 60px;
 }
+/* #endregion */
 
-/* foto's */
+
+/* #region foto's */
 .profielfotoindex {
     display: flex;
     flex-direction: column;
@@ -105,3 +112,4 @@
     clear: right;
     margin-right: 100px;
 }
+/* #endregion */
