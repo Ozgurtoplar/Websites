@@ -3,13 +3,17 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 60px;
-    margin-left: 15px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .screenedge {
     margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
     font-size: xx-large;
-    margin-left: 60px;
+
     font-family: 'Roboto Condensed', sans-serif;
 }
 /* #endregion */
@@ -85,6 +89,11 @@
     font-size: xx-large;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.cvcenter {
+    margin-left: 200px;
+    margin-top: 10px;
+}
 /* #endregion */
 
 
@@ -106,10 +115,36 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
 }
 
+.profielfotocv {
+    float: right;
+    padding-right: 300px;
+}
+
 .projectfotos img{
     float: right;
     display: block;
     clear: right;
     margin-right: 100px;
 }
+/* #endregion */
+
+
+/* #region verzendform */
+.contactform {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.contactform textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contactform input {
+    margin-bottom: 10px;
+}
+
 /* #endregion */
