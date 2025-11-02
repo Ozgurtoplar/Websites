@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- own styles -->
     <link rel="stylesheet" href="css/custom.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
     <title>Contact</title>
 </head>
 <body>
@@ -30,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="cv.html">CV</a>
@@ -39,12 +42,164 @@
             <a class="nav-link" href="hobby.html">Hobby's</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
             </li>
         </ul>
         </div>
     </div>
     </nav>
+
+    <br>
+    <br>
+    <br>
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h1><i class="bi bi-envelope"></i> Neem Contact Op</h1>
+                                    <p class="mb-0">Ik sta altijd open voor nieuwe kansen en samenwerkingen</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
+                                
+                                <div class="row g-0">
+                                    <!-- Contact Info Sidebar -->
+                                    <div class="col-lg-4">
+                                        <div class="contact-info h-100">
+                                            <h4 class="mb-4">Mijn Gegevens</h4>
+                                            
+                                            <div class="info-item">
+                                                <i class="bi bi-person-circle"></i>
+                                                <div>
+                                                    <strong>Özgür Toplar</strong><br>
+                                                    <small>Student</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="info-item">
+                                                <i class="bi bi-mortarboard"></i>
+                                                <div>
+                                                    <strong>Studierichting</strong><br>
+                                                    <small>Programmeren</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="info-item">
+                                                <i class="bi bi-geo-alt"></i>
+                                                <div>
+                                                    <strong>Locatie</strong><br>
+                                                    <small>3910 Pelt, België</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="info-item">
+                                                <i class="bi bi-envelope"></i>
+                                                <div>
+                                                    <strong>Email</strong><br>
+                                                    <small>r1089806@student.thomasmore.be</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="info-item">
+                                                <i class="bi bi-telephone"></i>
+                                                <div>
+                                                    <strong>Telefoon</strong><br>
+                                                    <small>+32 438 20 94 83</small>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="info-item">
+                                                <i class="bi bi-linkedin"></i>
+                                                <div>
+                                                    <strong>LinkedIn</strong><br>
+                                                    <small>linkedin.com/in/donthaveone</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Contact Form -->
+                                    <div class="col-lg-8">
+                                        <div class="form-section">
+                                            <h3 class="mb-4">Stuur me een bericht</h3>
+                                            
+                                            <form action="https://tm-statweb.be/forms.php" method="POST" novalidate>
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="naam" class="form-label">
+                                                            Naam <span class="required-star">*</span>
+                                                        </label>
+                                                        <input type="text" class="form-control" id="naam" name="naam" required>
+                                                        <div class="invalid-feedback">
+                                                            Gelieve je naam in te vullen.
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="voornaam" class="form-label">
+                                                            Voornaam <span class="required-star">*</span>
+                                                        </label>
+                                                        <input type="text" class="form-control" id="voornaam" name="voornaam" required>
+                                                        <div class="invalid-feedback">
+                                                            Gelieve je voornaam in te vullen.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label">
+                                                        Email adres <span class="required-star">*</span>
+                                                    </label>
+                                                    <input type="email" class="form-control" id="email" name="email" required>
+                                                    <div class="invalid-feedback">
+                                                        Gelieve een geldig email adres in te vullen.
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="mb-3">
+                                                    <label for="interesse" class="form-label">
+                                                        Interesse in skills
+                                                    </label>
+                                                    <select class="form-select" id="interesse" name="interesse">
+                                                        <option value="" selected>Maak een keuze...</option>
+                                                        <option value="frontend">Frontend Development (HTML, CSS, JavaScript)</option>
+                                                        <option value="backend">Backend Development (PHP, Python, Node.js)</option>
+                                                        <option value="fullstack">Full Stack Development</option>
+                                                        <option value="design">UI/UX Design</option>
+                                                        <option value="database">Database Management</option>
+                                                        <option value="mobile">Mobile App Development</option>
+                                                        <option value="devops">DevOps & Cloud</option>
+                                                        <option value="andere">Andere</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <div class="mb-4">
+                                                    <label for="vraag" class="form-label">
+                                                        Je vraag of bericht
+                                                    </label>
+                                                    <textarea class="form-control" id="vraag" name="vraag" rows="6" placeholder="Schrijf hier je bericht..."></textarea>
+                                                </div>
+                                                
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-submit">
+                                                        <i class="bi bi-send"></i> Verstuur Bericht
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <br>
+                <br>
 
 
 
@@ -62,16 +217,18 @@
         <!-- Rechter kolom: iconen -->
         <div class="col-md-6 text-center text-md-end">
           <div class="d-flex justify-content-center justify-content-md-end gap-3">
-            <a href="#" class="text-light" target="_blank"><i class="bi bi-whatsapp"></i></a>
-            <a href="#" class="text-light" target="_blank"><i class="bi bi-github"></i></a>
-            <a href="#" class="text-light" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/+32438209483" class="text-light" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://github.com/Ozgurtoplar" class="text-light" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/" class="text-light" target="_blank"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </div>
       </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/html5validatie.js"></script>
 </body>
 </html>

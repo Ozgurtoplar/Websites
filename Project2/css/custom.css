@@ -1,0 +1,66 @@
+.carousel-description {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.carousel-description h3 {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-description p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+
+
+/* Carousel afbeelding styling */
+.carousel-item img {
+    height: 515px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Tekst OP de foto */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 20px;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+/* Tekst ONDER de carousel */
+.carousel-bottom-text {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.carousel-bottom-text h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.carousel-bottom-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
